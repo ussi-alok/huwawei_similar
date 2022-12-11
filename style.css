@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* navbar css starts here */
+/* .nav{
+    position: relative;
+} */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(143, 220, 220, 0.192);
+    /* position: fixed; */
+}
+nav img{
+    height: 80px;
+    width: 80px;
+}
+img{
+    z-index: -1;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    min-width: 50vw;
+}
+nav ul li{
+    list-style: none;
+    letter-spacing: 0.2vw;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+nav ul li:hover{
+    color: rgb(250, 87, 37);
+    font-weight: bold;
+    font-size: larger;
+}
+/* .img_slid{
+    position: relative; 
+    background: ;
+} */
+
+/* image slider css starts here */
+.img_slid img{
+    /* background-image: c; */
+    height: 120vh;
+    width: 100vw;
+}
+.click{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    background: rgb(73, 69, 69);
+    top: 48%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.left_click{
+    
+    left: 6%;
+    
+}
+.right_click{
+    right: 6%;
+    
+}
+
+/* section css starts here */
+section{
+    height: auto;
+    /* width: 80vw; */
+    display: flex;
+    justify-content: center;
+}
+h1{
+    position: absolute;
+    text-transform: capitalize;
+    color: rgb(73, 69, 69);
+    font-size: 35px;
+    /* cursor: pointer; */
+}
+span{
+    height: 3px;
+    width: 120px;
+    background: rgb(15, 255, 27);
+    /* content: none; */
+    position: absolute;
+    margin-top: 45px;
+    border-radius: 3px;
+    
+}
+.img_container{
+    margin: 35px 0px 55px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 85vw;
+}
+.img{
+    width: 25vw;
+    /* height: 200px; */
+    overflow: hidden;
+    /* margin: auto; */
+    margin-top: 40px;
+}
+.first_img_row{
+    height: 300px;
+}
+.second_img_row{
+    height: 720px;
+}
+.third_img_row{
+    height: 250px;
+}
+.img img{
+    width: 100%;
+    transition: 0.4s all ease-in-out;
+
+}
+.img:hover img{
+    transform: scale(1.1);
+}
+.img p, .img pre{
+    position: relative;
+    left: 5%;
+    /* z-index: ; */
+    bottom: 150px;
+    text-transform: capitalize;
+    transition: 0.3s;
+    color: rgb(254, 255, 255);
+}
+
+.img:hover p{
+    font-size: larger;
+    letter-spacing: 2px;
+    font-weight: bold;
+
+    /* color: rgb(67, 64, 64); */
+}
+.img:hover pre{
+    font-size: larger;
+    letter-spacing: 1px;
+    color: aqua;
+    /* font-weight: bold; */
+}
+
+/* article css starts here */
+article{
+    background-color: rgba(194, 221, 212, 0.794);
+    height: 88vh;
+}
+article p{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+article span{
+    left: 46%;
+    margin-top: 10px;
+}
+.center{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 68px;
+}
+.news{
+    height: 62vh;
+    width: 25vw;
+    background-color: antiquewhite;
+    color: rgb(14, 43, 67);
+}
+.news:hover{
+    background-color: rgb(215, 185, 146);
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+}
+.news:hover pre{
+    text-align: center;
+    font-size: larger;
+    color: aqua;
+    transition: 0.7s;
+}
+.news img{
+    width: 100%;
+    height: 50%;
+}.button{
+    position: absolute;
+    left: 40%;
+    margin-top: 60px;
+    /* top: 100%; */
+}
+.button button{
+    line-height: 2.5;
+    padding: 0 37px 0 37px;
+    margin: 0 23px 0 23px;
+    font-size: large;
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius: 7px;
+    border-style: none;
+}
+.button button:hover{
+    background: rgb(124, 111, 111);
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    line-height: 2.8;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+/* footer css starts here */
+footer{
+    height: 40vh;
+    background-color: rgb(192, 174, 152);
+    padding-top: 80px;
+}
+footer ul{
+    display:   flex;
+    justify-content: space-evenly;
+    height: 100%;
+    /* background-color: rgb(192, 174, 152); */
+}
+ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 18vh;
+    color: rgb(11, 41, 41);
+    font-weight: normal;
+}
+ol p{
+    cursor: pointer;
+}
+footer ul li{
+    list-style: none;
+    text-transform: capitalize;
+    font-weight: bold;
+}
