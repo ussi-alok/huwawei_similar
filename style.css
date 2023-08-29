@@ -108,7 +108,7 @@ span{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 85vw;
+    width: 100vw;
 }
 .img{
     width: 25vw;
@@ -116,15 +116,6 @@ span{
     overflow: hidden;
     /* margin: auto; */
     margin-top: 40px;
-}
-.first_img_row{
-    height: 300px;
-}
-.second_img_row{
-    height: 720px;
-}
-.third_img_row{
-    height: 250px;
 }
 .img img{
     width: 100%;
