@@ -103,13 +103,16 @@ span{
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 100vw;
+    margin-top: 1.1rem;
 }
 .img{
-    width: 25vw;
+    /* width: 30vw; */
+    /* width: min(30vw,250px); */
+    width: max(30%,330px);
     /* height: 200px; */
     overflow: hidden;
     /* margin: auto; */
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 .img img{
     width: 100%;
