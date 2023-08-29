@@ -80,30 +80,24 @@ img.left_click_logo,img.right_click_logo{
 
 /* section css starts here */
 section{
-    height: auto;
-    /* width: 80vw; */
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 h1{
-    position: absolute;
     text-transform: capitalize;
     color: rgb(73, 69, 69);
     font-size: 35px;
-    /* cursor: pointer; */
 }
 span{
     height: 3px;
     width: 120px;
     background: rgb(15, 255, 27);
-    /* content: none; */
-    position: absolute;
-    margin-top: 45px;
     border-radius: 3px;
     
 }
 .img_container{
-    margin: 35px 0px 55px 0px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
