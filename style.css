@@ -45,17 +45,21 @@ nav ul li:hover{
 } */
 
 /* image slider css starts here */
+.img_slid{
+    position: relative;
+}
 .img_slid img{
     /* background-image: c; */
-    height: 120vh;
+    /* height: 120vh; */
     width: 100vw;
+    position: relative;
 }
 .click{
-    height: 80px;
-    width: 80px;
+    height: 50px;
+    width: 50px;
     position: absolute;
     background-color: rgb(228, 223, 223);
-    top: 48%;
+    top: 42%;
     border-radius: 50%;
     cursor: pointer;
 }
