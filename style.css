@@ -70,8 +70,7 @@ nav ul li:hover{
     justify-content: center;
 }
 img.left_click_logo,img.right_click_logo{
-    height: 40px;
-    width: 40px;
+    width: 55%;
     z-index: 1;
 }
 .right_click{
