@@ -159,7 +159,7 @@ article{
     align-items: center;
     gap: 15px;
 }
-article p{
+article >p{
     /* text-align: center; */
     text-transform: capitalize;
     font-size: 35px;
@@ -168,13 +168,15 @@ article p{
 
 .center{
     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
     width: 100%;
     justify-content: space-evenly;
     /* margin-top: 68px; */
 }
 .news{
-    height: 62vh;
-    width: 25vw;
+    height: calc(330px + 5rem);
+    width: max(330px,30%);
     background-color: antiquewhite;
     color: rgb(14, 43, 67);
 }
@@ -192,7 +194,7 @@ article p{
 }
 .news img{
     width: 100%;
-    height: 50%;
+    /* height: 50%; */
 }
 
 .button button{
