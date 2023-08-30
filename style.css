@@ -203,10 +203,14 @@ article >p{
     /* height: 50%; */
 }
 
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
 .button button{
-    line-height: 2.5;
-    padding: 0 37px 0 37px;
-    margin: 0 23px 0 23px;
+    padding: calc(10px + 0.2rem);
     font-size: large;
     text-transform: capitalize;
     cursor: pointer;
@@ -217,7 +221,6 @@ article >p{
     background: rgb(124, 111, 111);
     color: rgb(255, 255, 255);
     letter-spacing: 1px;
-    line-height: 2.8;
     font-weight: bold;
     transition: 0.5s;
 }
