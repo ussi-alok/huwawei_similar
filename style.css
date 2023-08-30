@@ -14,7 +14,6 @@ nav{
     justify-content: space-around;
     align-items: center;
     background-color: rgba(143, 220, 220, 0.192);
-    /* position: fixed; */
 }
 nav img{
     height: 80px;
@@ -30,14 +29,15 @@ nav ul{
 }
 nav ul li{
     list-style: none;
-    letter-spacing: 0.2vw;
+    letter-spacing: 0.1rem;
     text-transform: capitalize;
     cursor: pointer;
+    font-size: 0.9rem;
 }
 nav ul li:hover{
     color: rgb(250, 87, 37);
     font-weight: bold;
-    font-size: larger;
+    font-size: 1.1rem;
 }
 /* .img_slid{
     position: relative; 
