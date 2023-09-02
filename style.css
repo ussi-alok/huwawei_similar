@@ -24,9 +24,6 @@ nav img{
     height: 80px;
     width: 80px;
 }
-img{
-    z-index: -1;
-}
 nav ul{
     display: flex;
     justify-content: space-between;
@@ -80,7 +77,6 @@ nav ul li:hover{
 }
 img.left_click_logo,img.right_click_logo{
     width: 55%;
-    z-index: 1;
 }
 .right_click{
     right: 6%;
